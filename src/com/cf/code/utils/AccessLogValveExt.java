@@ -20,6 +20,7 @@ public class AccessLogValveExt extends AccessLogValve{
 	@Override
 	public void log(Request request, Response response, long time) {
 		if("head".equalsIgnoreCase(request.getMethod())){
+			d;
 			return ;
 		}
 		
